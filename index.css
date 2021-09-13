@@ -1,0 +1,62 @@
+body {
+    background-image: url(sw2.jpg) ;
+    height: 100%;
+    
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.header{
+  width: 100%;
+  height:70px;
+  display:block;
+  background-color:sandybrown;
+  padding-left: 0px;
+}
+.inner_header{
+  width: 1000px;
+  height: 100%;
+  display: block;
+
+}
+.logo{
+  height: 100%;
+  display: table;
+  float:left;
+  vertical-align: middle;
+}
+.logo h1{
+  color:black;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: 200;
+}
+.logo h1 span{
+  font-weight: 800;
+  color:white;
+}
+.navigation{
+  float:right;
+  height:100%;
+}
+.navigation a{
+  height:100%;
+  vertical-align: middle;
+
+  display:table;
+  float:left;
+  padding: 0px 20px;
+}
+.navigation :last-child{
+  padding-right: 5px;
+}
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-size: 20px;
+}
